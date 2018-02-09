@@ -41,7 +41,8 @@ section {
   padding: 90px 0;
 }
 
-section:nth-child(odd) {
+.shadow{box-shadow:4px 4px; }
+section:nth-child(even) {
   background: #f8f8f8;
 }
 section .container {
@@ -92,4 +93,13 @@ header img {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+/* features */
+.desc {
+  width: 360px;
+}
+.pull-left {
+  float: left;
+  padding-right: 40px;
 }
